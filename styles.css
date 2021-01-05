@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 170px;
+    box-shadow: 0 6px 6px 0 rgba(34, 60, 80, 0.16);
+    transition: all ease-in-out 0.2s;
+}
+
+img:hover {
+    transform: scale(1.09
+    )
+}
+

@@ -5,20 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NBA Team Viewer</title>
     <script src="ball.js"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
     <h1>NBA Team Viewer</h1>
+    <img src="https://www.freepnglogos.com/uploads/nba-logo-png/nba-debate-club-milken-hottest-new-club-the-roar-25.png" >
+    <p id="timefunc"></p>
     <form method="POST">
-        <label for="team">Enter Team Name:</label>
-        <input type="text" id="team" name="team"> 
+        <!--<label for="team">Enter Team Name:</label>
+        <input type="text" id="team" name="team">-->
+        <select name="team" id="team">
+            <option value="Atlanta">Atlanta</option>
+            <option value="Boston">Boston</option>
+            <option value="Brooklyn">Brooklyn</option>
+            <option value="Charlotte">Charlotte</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Cleveland">Cleveland</option>
+            <option value="Dallas">Dallas</option>
+            <option value="Denver">Denver</option>
+            <option value="Detroit">Detroit</option>
+            <option value="Golden State">Golden State</option>
+            <option value="Houston">Houston</option>
+            <option value="Indiana">Indiana</option>
+            <option value="LA Clippers">LA Clippers</option>
+            <option value="LA Lakers">LA Lakers</option>
+            <option value="Memphis">Memphis</option>
+            <option value="Miami">Miami</option>
+            <option value="Milwaukee">Milwaukee</option>
+            <option value="Minnesota">Minnesota</option>
+            <option value="New Orleans">New Orleans</option>
+            <option value="New York">New York</option>
+            <option value="Oklahoma">Oklahoma</option>
+            <option value="Orlando">Orlando</option>
+            <option value="Philadelphia">Philadelphia</option>
+            <option value="Phoenix">Phoenix</option>
+            <option value="Portland">Portland</option>
+            <option value="Sacramento">Sacramento</option>
+            <option value="San Antonio">San Antonio</option>
+            <option value="Toronto">Toronto</option>
+            <option value="Utah">Utah</option>
+            <option value="Washington">Washington</option>
+        </select>
 
         <button type="button" onclick="submittedit()">Submit</button>
     </form>
-    <br>
 
-    <!--Will display the team info once clicked-->
+    <p id="results"></p>
+    <!--Will display the team info once clicked
     <button type="button" onclick="getTeam()">Team Info</button>
-    <p id="displayteam"></p>
+    <p id="displayteam"></p> -->
 
 </body>
 </html>
