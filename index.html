@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Team Viewer</title>
+    <script src="ball.js"></script>
+</head>
+<body>
+    <h1>NBA Team Viewer</h1>
+    <form method="POST" action="ball.js">
+        <label for="team">Enter Team Name:</label>
+        <input type="text" id="team" name="team"> 
+
+        <button type="button" onclick="submittedit()">Submit</button>
+    </form>
+    <br>
+
+    <!--Will display the team info once clicked-->
+    <button type="button" onclick="getTeam()">Team Info</button>
+    <p id="displayteam"></p>
+
+</body>
+</html>
+
